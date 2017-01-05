@@ -1,0 +1,62 @@
+#wrapper 
+{
+    width: 500px;
+    margin: 0 auto;
+    background-color: dimgray;
+    border-color: gray;
+    border-style: solid;
+    border-width: 8px;
+    font-family: "Lucida Console";
+   
+}
+
+
+h1
+{
+    color: chocolate;      
+}
+#Namen
+{
+    background-color: darkcyan;
+    padding: 10px;
+    
+}
+#Früchte
+{
+    background-color: darkorange;
+    padding: 10px;
+}
+#fruits
+{
+    list-style-type: none;
+    padding-left: 0px;
+}
+#cocktails
+{
+    list-style-type: none;
+    padding-left: 0px;
+}
+#Fontsize
+{
+    background-color: brown;
+    border-radius: 10%;
+    border-style: groove;
+    padding: 32px 16px;
+}
+#top
+{
+    border-top-color: gray;
+    border-top-style: dashed;
+    border-top-width: 8px;
+    border-bottom-width: 8px;
+    border-bottom-color: gray;
+    border-bottom-style: dashed;
+}
+
+.cocktail
+{
+    border-color: gray;
+    border-style: dotted;
+    border-width: 8px;
+}
+
