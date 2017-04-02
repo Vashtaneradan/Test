@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<head>
+    <meta charset="UTF-8">
+    <title>Cocktail Dude</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="asdfgh"></div>
+    <div id="wrapper">
+
+        <div id="top">
+
+            <div id="Namen">
+                <h1>Cocktails</h1>
+                <ul id="cocktails">
+                    <li>Acapulco</li>
+                    <li>Azzurro Bacio</li>
+                    <li>Bahama Mama</li>
+                    <li>Black Death</li>
+                    <li>Cosmopolitan</li>
+                    <li>Green Poison</li>
+                    <li>Kamikaze</li>
+                    <li>Long Island Ice Tea</li>
+                    <li>Lynchurg Lemonade</li>
+                    <li>Mojito</li>
+                    <li>Planters Punch</li>
+                    <li>Pinacolada</li>
+                    <li>Scorpion</li>
+                    <li>Sex on the Beach</li>
+                    <li>Swimmingpool</li>
+                    <li>Tequila Sunrise</li>
+                    <li>Tuchdown</li>
+                    <li>Whisky Sour</li>
+                    <li>Young Fresh and beautiful</li>
+                    <li>Zombie</li>
+
+                </ul>
+
+            </div>
+
+            <div id="Früchte">
+                <h1>Alkoholsorten</h1>
+                <ul id="fruits">
+                    <li>Rum</li>
+                    <li>Tequila</li>
+                    <li>Wodka</li>
+                    <li>Blue Curacao</li>
+                    <li>Whisky</li>
+                </ul>
+            </div>
+
+            <button type="button" onclick="changeFontsize('cocktails'), changeFontsize('fruits'), incrementI()" id="Fontsize">Schriftgröße ändern</button>
+            <!-- <a href="javascript:;" onclick="changeFontsize('cocktails'), changeFontsize('fruits') "> </a>  -->
+        </div>
+
+        <div id="liste">
+
+            <div id="c0" class="cocktail">
+                <h1>Acapulco???</h1>
+                <ul id="fruits">
+                    <li>3 cl Tequila Silver</li>
+                    <li>1 cl brauner Rum</li>
+                    <li>4 cl Grapefruitsaft</li>
+                    <li>10 cl Annanassaft</li>
+                </ul>
+                <p>Mit Eis im Shaker shaken und anschießend in ein Longdrinkglas abgießen.</p>
+            </div>
+
+
+            <div id="c1" class="cocktail">
+                <h1>Azzurro Bacio</h1>
+                <ul id="fruits">
+                    <li>3 cl Blue Curacao</li>
+                    <li>2 cl Limettensirup</li>
+                    <li>1 cl Zitronensaft</li>
+                    <li>10 cl kalter Sekt</li>
+                </ul>
+                <p>ohne Sekt mit Eis im Shaker shaken, durch Barsieb in ein großes Stielglas abgießen. Mit kaltem Sekt auffüllen.</p>
+            </div>
+
+            <div id="c2" class="cocktail">
+                <h1>Bahama Mama</h1>
+                <ul id="fruits">
+                    <li>2 cl brauner Rum</li>
+                    <li>1 cl Jamaikarum 73 %vol</li>
+                    <li>2 cl Malibu Coconut</li>
+                    <li>Kahlua Coffee Liquer</li>
+                    <li>12 cl Ananassaft</li>
+                    <li>2 cl Zitronensaft</li>
+                </ul>
+                <p>Mit Eis im Shaker shaken und dann in ein Longdrinkglas auf Eiswürfel abgießen.</p>
+            </div>
+
+            <div id="c3" class="cocktail">
+                <h1>Black Death</h1>
+                <ul id="fruits">
+                    <li>4 cl Blue Curacao</li>
+                    <li>2 cl Tequila</li>
+                    <li>2 cl Grenadine</li>
+                    <li>4 cl Zitronensaft</li>
+                    <li>8 cl Blutorangensaft</li>
+                </ul>
+                <p>Mit Eis im Shaker shaken und dann in ein Longdrinkglas auf Eiswürfel abgießen.</p>
+            </div>
+
+            <div id="c4" class="cocktail">
+                <h1>Cosmopolitan</h1>
+                <ul id="fruits">
+                    <li>3 cl Cointreau</li>
+                    <li>6 cl Wodka</li>
+                    <li>3 cl Cranberrynektar</li>
+                    <li>1 1/2 cl Limettensaft</li>
+                </ul>
+                <p>Mit Eis im Shaker shaken und in ein gekühltes Cocktailglas abgießen.</p>
+            </div>
+
+            <div id="c5" class="cocktail">
+                <h1>Green Poison</h1>
+                <ul id="fruits">
+                    <li>4 cl Cosmo</li>
+                    <li>2 cl Wanda</li>
+                    <li>10 cl Elfen Staub</li>
+                    <li>6 cl Luft</li>
+                    <li>bissle Eis</li>
+                </ul>
+            </div>
+
+            <div id="c6" class="cocktail">
+                <h1>Kamikaze</h1>
+                <ul id="fruits">
+                    <li>4 cl Cosmo</li>
+                    <li>2 cl Wanda</li>
+                    <li>10 cl Elfen Staub</li>
+                    <li>6 cl Luft</li>
+                    <li>bissle Eis</li>
+                </ul>
+            </div>
+
+            <div id="c7" class="cocktail">
+                <h1>Long Islans Ice Tea</h1>
+                <ul id="fruits">
+                    <li>4 cl Cosmo</li>
+                    <li>2 cl Wanda</li>
+                    <li>10 cl Elfen Staub</li>
+                    <li>6 cl Luft</li>
+                    <li>bissle Eis</li>
+                </ul>
+            </div>
+
+            <div id="c8" class="cocktail">
+                <h1>Lynchburg Lemonade</h1>
+                <ul id="fruits">
+                    <li>4 cl Cosmo</li>
+                    <li>2 cl Wanda</li>
+                    <li>10 cl Elfen Staub</li>
+                    <li>6 cl Luft</li>
+                    <li>bissle Eis</li>
+                </ul>
+            </div>
+
+            <div id="c9" class="cocktail">
+                <h1>Mojito</h1>
+                <ul id="fruits">
+                    <li>4 cl Cosmo</li>
+                    <li>2 cl Wanda</li>
+                    <li>10 cl Elfen Staub</li>
+                    <li>6 cl Luft</li>
+                    <li>bissle Eis</li>
+                </ul>
+            </div>
+
+            <div id="c10" class="cocktail">
+                <h1>Planters Punch</h1>
+                <ul id="fruits">
+                    <li>4 cl Cosmo</li>
+                    <li>2 cl Wanda</li>
+                    <li>10 cl Elfen Staub</li>
+                    <li>6 cl Luft</li>
+                    <li>bissle Eis</li>
+                </ul>
+            </div>
+
+            <div id="c11" class="cocktail">
+                <h1>Pina Colada</h1>
+                <ul id="fruits">
+                    <li>4 cl Cosmo</li>
+                    <li>2 cl Wanda</li>
+                    <li>10 cl Elfen Staub</li>
+                    <li>6 cl Luft</li>
+                    <li>bissle Eis</li>
+                </ul>
+            </div>
+
+            <div id="c12" class="cocktail">
+                <h1>Scorpion</h1>
+                <ul id="fruits">
+                    <li>4 cl Cosmo</li>
+                    <li>2 cl Wanda</li>
+                    <li>10 cl Elfen Staub</li>
+                    <li>6 cl Luft</li>
+                    <li>bissle Eis</li>
+                </ul>
+            </div>
+
+            <div id="c13" class="cocktail">
+                <h1>Sex on the Beach</h1>
+                <ul id="fruits">
+                    <li>4 cl Cosmo</li>
+                    <li>2 cl Wanda</li>
+                    <li>10 cl Elfen Staub</li>
+                    <li>6 cl Luft</li>
+                    <li>bissle Eis</li>
+                </ul>
+            </div>
+
+            <div id="c14" class="cocktail">
+                <h1>Swimmingpool</h1>
+                <ul id="fruits">
+                    <li>4 cl Cosmo</li>
+                    <li>2 cl Wanda</li>
+                    <li>10 cl Elfen Staub</li>
+                    <li>6 cl Luft</li>
+                    <li>bissle Eis</li>
+                </ul>
+            </div>
+
+            <div id="c15" class="cocktail">
+                <h1>Tequila Sunrise</h1>
+                <ul id="fruits">
+                    <li>4 cl Cosmo</li>
+                    <li>2 cl Wanda</li>
+                    <li>10 cl Elfen Staub</li>
+                    <li>6 cl Luft</li>
+                    <li>bissle Eis</li>
+                </ul>
+            </div>
+
+            <div id="c16" class="cocktail">
+                <h1>Tuchdown</h1>
+                <ul id="fruits">
+                    <li>4 cl Cosmo</li>
+                    <li>2 cl Wanda</li>
+                    <li>10 cl Elfen Staub</li>
+                    <li>6 cl Luft</li>
+                    <li>bissle Eis</li>
+                </ul>
+            </div>
+
+            <div id="c17" class="cocktail">
+                <h1>Whisky Sour</h1>
+                <ul id="fruits">
+                    <li>4 cl Cosmo</li>
+                    <li>2 cl Wanda</li>
+                    <li>10 cl Elfen Staub</li>
+                    <li>6 cl Luft</li>
+                    <li>bissle Eis</li>
+                </ul>
+            </div>
+
+            <div id="c18" class="cocktail">
+                <h1>Young Fresh and beautiful</h1>
+                <ul id="fruits">
+                    <li>4 cl Cosmo</li>
+                    <li>2 cl Wanda</li>
+                    <li>10 cl Elfen Staub</li>
+                    <li>6 cl Luft</li>
+                    <li>bissle Eis</li>
+                </ul>
+            </div>
+
+            <div id="c19" class="cocktail">
+                <h1>Zombie</h1>
+                <ul id="fruits">
+                    <li>4 cl Cosmo</li>
+                    <li>2 cl Wanda</li>
+                    <li>10 cl Elfen Staub</li>
+                    <li>6 cl Luft</li>
+                    <li>bissle Eis</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

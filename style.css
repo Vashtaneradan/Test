@@ -1,13 +1,16 @@
+body{
+    background-color: #212121;
+}
 #wrapper 
 {
     width: 500px;
     margin: 0 auto;
-    background-color: dimgray;
+    background-color: #333;
     border-color: gray;
     border-style: solid;
     border-width: 8px;
     font-family: "Lucida Console";
-   
+    color: #bbb;
 }
 
 
